@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Encurtador de URL</title>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <i class="bx bx-link-alt icon"></i>
+        <h1>Encurtador de URL</h1>
+        <label for="">Cole o link a ser encurtado:</label>
+        <input type="text" id="userUrl" placeholder="https://...">
+
+        <div class="buttons">
+            <button type="button" id="shorten">Encurtar</button>
+            <button type="button" id="refresh">Limpar</button>
+        </div>
+        <label for="">Link pronto:</label>
+        <textarea name="" id="endResult" cols="0" rows="2"></textarea>
+
+    </div>
+
+    <script src="shortener.js"</script>
+</body>
+
+</html>
